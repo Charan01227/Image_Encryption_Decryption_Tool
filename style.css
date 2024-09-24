@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for neon effect */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url('./background.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: white; /* Neon blue */
+    text-shadow: 0 0 10px #00bfff;
+}
+
+label {
+    color: #ffffff; /* Neon blue */
+    text-shadow: 0 0 10px #14ff00;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="file"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #222; /* Dark background for inputs */
+    color: #fff; /* White text */
+    box-shadow: 0 0 15px #00bfff; /* Blue neon border effect */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4500; /* Neon orange */
+    color: #fff; /* White text */
+    cursor: pointer;
+    box-shadow: 0 0 15px #00bfff; /* Blue neon border effect */
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #ff6347; /* Lighter neon orange */
+    box-shadow: 0 0 20px #00bfff; /* Brighter blue neon border effect on hover */
+}
+
+a {
+    display: inline-block;
+    padding: 0px;
+    margin: 10px;
+    color: #00ced1; /* Neon cyan */
+    text-decoration: none;
+    border: 2px solid #00bfff; /* Blue neon border */
+    border-radius: 5px;
+    box-shadow: 0 0 15px #00bfff; /* Blue neon border effect */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #00bfff; /* Blue neon background */
+    color: #000; /* Black text */
+    box-shadow: 0 0 20px #00bfff; /* Brighter blue neon border effect on hover */
+}
+
+/* Centered smaller neon block */
+.neon-block {
+    padding: 0px;
+    margin: 140px auto;
+    margin-right: 340px; 
+    width: 30%;
+    border-radius: 50px;
+    box-shadow: 0 0 5000px;
+    text-align: center;
+}
+
+/* Blue neon borders */
+.neon-border-blue {
+    border: 3px solid #00bfff;
+    box-shadow: 0 0 15px #00bfff;
+}
